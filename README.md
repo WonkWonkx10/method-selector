@@ -1,4 +1,4 @@
-# Pick Your Lens: AP Research Method Selector (web version 8, Oct 11, 2026)
+# Pick Your Lens: AP Research Method Selector (web version 9, Oct 11, 2026)
 
 One file runs the whole site: `index.html`. No build step, no accounts, no student data leaves the browser.
 
@@ -21,7 +21,7 @@ To update later: upload a new `index.html` over the old one. The address does no
 - Glossary: 23 terms from the build kit.
 - Source lines are always shown (no switch). In version 4 they hold only author, year and page; the filing codes were stripped by script.
 - The page tells students the AP sample papers are in Canvas Files, folder "AP Research Sample Papers 2016-2025", and that textbook resources are in Canvas.
-- "How to use" page: the tool is a suggestion, what is clickable, where matching papers are, how to justify a method. Start opens it first.
+- "How to use" page: the tool is a suggestion, what is clickable, where matching papers are, how to justify a method. Start opens it first. From version 9 it shows 12 pictures of real screens from the tool.
 - No due dates appear in the student text.
 
 ## One switch
@@ -53,3 +53,11 @@ It is ON since version 5: the proposed alignment rows for the pointer cards and 
 ## Changed in version 8
 
 - Meta-analysis wording now says it creates new information by combining the measurements other studies reported (card, stop screen and tool-check note). No other change.
+
+## Changed in version 9
+
+- The "How to use" page now shows 12 pictures taken from the tool itself (All cards, a pointer card's buttons, a MISFIT result, the top bar, a question screen, the top and bottom of a method card, the tool check, the summary, See it done, In the AP samples, and a source line). A red outline in a picture marks the thing to click; the outline is not in the real tool.
+- Each picture has a light and a dark copy, and the page shows the one that matches the device. The pictures are stored inside `index.html`, so the site is still one file. The file grew from 289,884 bytes to about 1.68 MB.
+- The pictures use the Lucy question ("Is daily play time related to obedience scores in pet dogs?") and the Correlational card.
+- If a card or screen is reworded later, the pictures will not change by themselves. They have to be taken again.
+- Nothing else changed: the question path, the 25 cards, the alignment rows, Other methods and the Glossary are the same as version 8.
